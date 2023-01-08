@@ -13,3 +13,12 @@ to the start the development server of the client;
 # Screenshot
 
 ![ss1](https://user-images.githubusercontent.com/44193587/211187101-b3604302-aac9-4e3f-b480-573603d5f4bf.png)
+
+# Technologies used
+- React.js
+- Typescript
+- Express.js
+- Node.js
+- TailwindCSS
+- Socket.io
+- MongoDB
