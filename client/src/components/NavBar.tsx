@@ -41,7 +41,7 @@ export default function NavBar() {
           italic
           text-orange-400"
       >
-        silence
+        silence: by mhtkrag
       </div>
 
       {auth && auth.isAuth ? (

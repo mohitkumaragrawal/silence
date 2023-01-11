@@ -32,7 +32,7 @@ const useStickers = () => {
     axios
       .get(`/v4/contents/search?gender=unisex&intent=${intent}&limit=5`, {
         headers: {
-          "x-api-key": "w5P2sRua9tNw3zqDCL71rD9UjeQkffd5ZMn0CeZ_58o",
+          "x-api-key": process.env.REACT_APP_BOBBLE_API_KEY,
         },
       })
       .then((value) => {
