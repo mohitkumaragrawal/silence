@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.get("/", (req, res) => {
-  res.end("Test response");
+  res.status(200).end("working!");
 });
 
 // Middlewares
@@ -34,7 +34,7 @@ mongoose
     (success) => {
       console.log("successfully connected to the dB");
 
-      const PORT = process.env.port || "3000";
+      const PORT = process.env.PORT || "3000";
       console.log(`started listening at port ${PORT}`);
       chatio.listen(server);
       server.listen(PORT);
