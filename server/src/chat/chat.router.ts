@@ -11,7 +11,6 @@ ChatRouter.post("/fetch", AuthMiddleware, (req, res) => {
     res.status(400).end();
     return;
   }
-
   const person1 = req.auth.username;
   const { person2 } = req.body;
 
